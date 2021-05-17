@@ -1,0 +1,27 @@
+/* tampilan saat sebelum di klik */
+.leftlinks a:link {
+    border:4px solid plum; 
+    padding:8px;
+    margin:5px;
+    background-color:pink; 
+    text-align: center;
+    text-decoration: none;
+    }
+    
+/* tampilan saat sudah di klik (dikunjungi) */
+.leftlinks a:visited {
+    color: purple
+    }
+
+/* tampilan saat kursor mouse diarahkan diatas elemen */
+.leftlinks a:hover { 
+    color: lightcoral; 
+    background-color: peachpuff;
+    }
+
+/* tampilan elemen saat ditekan lama */
+.leftlinks a:active { 
+    color:palevioletred; 
+    background-color: whitesmoke;
+        }
+    
